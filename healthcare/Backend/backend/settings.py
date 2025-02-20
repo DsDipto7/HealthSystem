@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     "api",
     "contact",
     'django_extensions',
+     'django_filters',
    
 ]
 
