@@ -93,9 +93,15 @@ export default function AmbulanceTable() {
   };
 
   return (
+<<<<<<< HEAD
+    <div className="ambulance-container">
+      <ToastContainer position="top-center" autoClose={2000} />
+      <h2 className="ambulance-title">Ambulance Management</h2>
+=======
     <div className="ambulance-containerr">
       <ToastContainer position="top-center" autoClose={2000} />
       <h2 className="ambulance-titlee">Ambulance Management</h2>
+>>>>>>> 5885cfdf (Appoinmnet added)
       <table className="ambulance-table">
         <thead>
           <tr>
@@ -157,5 +163,8 @@ export default function AmbulanceTable() {
     </div>
   );
 }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 5885cfdf (Appoinmnet added)

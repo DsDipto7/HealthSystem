@@ -570,4 +570,38 @@ body {
     /* ডার্ক পার্পল */
     margin-bottom: 10px;
     font-weight: 700;
+<<<<<<< HEAD
 }
+=======
+}
+/* ProductSearch.css */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Search input styling */
+.product-search-input {
+  padding: 10px 16px;
+  border: 2px solid #caa4f5;
+  border-radius: 25px;
+  font-size: 16px;
+  width: 280px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(106, 27, 154, 0.15);
+}
+
+.product-search-input:focus {
+  border-color: #6a1b9a;
+  box-shadow: 0 0 5px rgba(106, 27, 154, 0.4);
+}
+>>>>>>> 5885cfdf (Appoinmnet added)

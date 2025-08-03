@@ -1,6 +1,9 @@
 import "./App.css";
+<<<<<<< HEAD
+=======
  // ✅ Valid because it's inside src/
 
+>>>>>>> 5885cfdf (Appoinmnet added)
 import Homepage from "./Components/Homepage/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Components/Login/Login";
@@ -44,6 +47,14 @@ import UserProfile from "./Components/UserProfile/UserProfile"; //for user_profi
 //for doctor_profile
 import DoctorProfile from "./Components/DoctorProfile/DoctorProfile"; //for doctor_profile
 
+<<<<<<< HEAD
+=======
+import VideoCallWrapper from "./Components/Videocall/VideoCallWrapper";
+
+import MyAppointments from "./Components/Videocall/MyAppointments";
+
+import DoctorAppointments from "./Components/Videocall/DoctorAppointments";
+>>>>>>> 5885cfdf (Appoinmnet added)
 
 
 
@@ -91,7 +102,17 @@ function App() {
           {/* Prescription Upload Route */}
      
 
+<<<<<<< HEAD
  
+=======
+         {/* My Appointments Route */}
+         <Route path="/my-appointments" element={<MyAppointments />} />
+
+         {/* VideoCallWrapper component to handle dynamic room names and display names */}
+       <Route path="/video-call/:doctorId" element={<VideoCallWrapper />} />
+
+        <Route path="/doctor-appointments" element={<DoctorAppointments />} />
+>>>>>>> 5885cfdf (Appoinmnet added)
 
           {/* Admin Routes */}
 

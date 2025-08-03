@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@jitsi/react-sdk": "^1.4.4",
+>>>>>>> 5885cfdf (Appoinmnet added)
     "@stripe/react-stripe-js": "^3.1.1",
     "@stripe/stripe-js": "^5.6.0",
     "@testing-library/jest-dom": "^5.17.0",

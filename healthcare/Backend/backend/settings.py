@@ -30,7 +30,10 @@ INSTALLED_APPS = [
     "stripe",
     "transactions",
     "payments",
+<<<<<<< HEAD
+=======
     "ambulanceRequest",
+>>>>>>> 5885cfdf (Appoinmnet added)
     "doctor",
     # 'rest_framework',
     "rest_framework_simplejwt",
@@ -39,10 +42,14 @@ INSTALLED_APPS = [
     'doctor_auth',
     #for doctor self which he can crud all but his license and his email 
     "doctor_profile",
+<<<<<<< HEAD
     
   
   
    
+=======
+    "Appointment"
+>>>>>>> 5885cfdf (Appoinmnet added)
 ]
 
 

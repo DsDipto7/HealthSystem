@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+.ambulance-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ambulance-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.ambulance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+=======
 .ambulance-containerr{
     max-width: 1000px;
     margin: 40px auto;
@@ -12,10 +35,45 @@
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 30px;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }
 
 .ambulance-table th,
 .ambulance-table td {
+<<<<<<< HEAD
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.ambulance-table th {
+    background-color: #007bff !important;
+    color: white;
+    font-weight: bold;
+}
+
+.ambulance-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.ambulance-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+=======
     padding: 14px;
     text-align: center;
     border: 1px solid #e2e8f0;
@@ -40,6 +98,7 @@
     cursor: pointer;
     font-weight: 500;
     transition: background-color 0.2s ease;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }
 
 .edit-btn {
@@ -49,7 +108,10 @@
 
 .edit-btn:hover {
     background-color: #e0a800;
+<<<<<<< HEAD
+=======
     gap: 10px;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }
 
 .delete-btn {
@@ -61,6 +123,11 @@
     background-color: #c82333;
 }
 
+<<<<<<< HEAD
+.ambulance-form {
+    margin-top: 20px;
+    text-align: center;
+=======
 /* Form Styling */
 .ambulance-form {
     background-color: #eaf2f8;
@@ -74,10 +141,28 @@
     margin-bottom: 20px;
     text-align: center;
     color: #0a3d62;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }
 
 .input-field {
     width: 100%;
+<<<<<<< HEAD
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-ambulance-btn {
+    width: 200px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+=======
     padding: 10px 12px;
     margin-bottom: 16px;
     font-size: 14px;
@@ -96,8 +181,13 @@
     cursor: pointer;
     font-size: 15px;
     transition: background-color 0.3s;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }
 
 .add-ambulance-btn:hover {
     background-color: #218838;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5885cfdf (Appoinmnet added)

@@ -1,4 +1,9 @@
 from django.shortcuts import render
+<<<<<<< HEAD
+
+# Create your views here.
+=======
+>>>>>>> 5885cfdf (Appoinmnet added)
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status

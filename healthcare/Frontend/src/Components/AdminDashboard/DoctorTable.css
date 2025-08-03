@@ -30,11 +30,14 @@
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+<<<<<<< HEAD
+=======
     word-wrap: break-word;
     word-break: break-word;
     overflow-x: auto;
     display: block;
     white-space: nowrap;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }
 
 .doctor-table th,
@@ -62,6 +65,8 @@
     background-color: #ef4444;
     /* red-500 */
     color: #fff;
+<<<<<<< HEAD
+=======
 }
 
 .doctor-table::-webkit-scrollbar {
@@ -71,4 +76,5 @@
 .doctor-table::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 10px;
+>>>>>>> 5885cfdf (Appoinmnet added)
 }

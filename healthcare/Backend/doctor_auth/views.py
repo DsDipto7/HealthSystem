@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #this  is my previous  code
 
 # from rest_framework.views import APIView
@@ -57,6 +58,8 @@
 
 #         return Response(response_data, status=status.HTTP_200_OK)
 
+=======
+>>>>>>> 5885cfdf (Appoinmnet added)
 
 
 #this  is my updated code (with login+updated functionality)

@@ -26,7 +26,10 @@ urlpatterns = [
     path("api/",include('api.urls')),
     path('api/', include('contact.urls')),
     path('ambulance/',include('ambulance.urls')),
+<<<<<<< HEAD
+=======
     path('ambulance-request/', include('ambulanceRequest.urls')),
+>>>>>>> 5885cfdf (Appoinmnet added)
 
     #doctor login
     path('doctor_auth/', include('doctor_auth.urls')),  #for doctor login
@@ -61,7 +64,11 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
+<<<<<<< HEAD
     
+=======
+    path('api/appointments/', include('Appointment.urls')),  # ✅ Make sure this is added
+>>>>>>> 5885cfdf (Appoinmnet added)
 
 
 

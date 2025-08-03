@@ -168,7 +168,10 @@ import PrescriptionTable from "./PrescriptionTable";
 import TransactionsTable from "./TransactionsTable";
 import AmbulanceTable from "./AmbulanceTable";
 import DoctorTable from "./DoctorTable";
+<<<<<<< HEAD
+=======
 import AmbulanceRequest from "./AmbulanceRequest";
+>>>>>>> 5885cfdf (Appoinmnet added)
 import "./Adminpage.css"; // Ensure case matches exactly
 // Import CSS file
 
@@ -294,6 +297,8 @@ export default function AdminPage() {
                   <span className="ms-1 d-none d-sm-inline">Doctor</span>
                 </button>
               </li>
+<<<<<<< HEAD
+=======
               <li className="nav-item">
                 <button
                   className={`nav-link align-middle px-0 ${
@@ -307,6 +312,7 @@ export default function AdminPage() {
                   </span>
                 </button>
               </li>
+>>>>>>> 5885cfdf (Appoinmnet added)
             </ul>
 
             {/* Logout Button */}
@@ -327,7 +333,10 @@ export default function AdminPage() {
           {activeTab === "transactions" && <TransactionsTable />}
           {activeTab === "ambulance" && <AmbulanceTable />}
           {activeTab === "doctor" && <DoctorTable />}
+<<<<<<< HEAD
+=======
           {activeTab === "ambulancerequest" && <AmbulanceRequest />}
+>>>>>>> 5885cfdf (Appoinmnet added)
         </div>
       </div>
     </div>

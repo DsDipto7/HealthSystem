@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+/* Scoped Navbar Styles */
+=======
 
+>>>>>>> 5885cfdf (Appoinmnet added)
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -11,7 +15,11 @@
   z-index: 1000;
 }
 
+<<<<<<< HEAD
+/* Logo Section */
+=======
 
+>>>>>>> 5885cfdf (Appoinmnet added)
 .navbar-logo-section {
   display: flex;
   flex-direction: column;
@@ -34,7 +42,11 @@
   margin-bottom: 2px;
 }
 
+<<<<<<< HEAD
+/* Navbar Links */
+=======
 
+>>>>>>> 5885cfdf (Appoinmnet added)
 .navbar-links {
   display: flex;
   align-items: center;
@@ -59,6 +71,10 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+/* Dropdown Menu */
+=======
+>>>>>>> 5885cfdf (Appoinmnet added)
 .navbar-dropdown {
   position: relative;
 }
@@ -98,7 +114,11 @@
   color: #0a58ca;
 }
 
+<<<<<<< HEAD
+/* Username and Button */
+=======
 
+>>>>>>> 5885cfdf (Appoinmnet added)
 .navbar-username {
   font-size: 20px;
   font-weight: 600;
@@ -121,5 +141,9 @@
 
 .navbar-btn:hover {
   background: #084298;
+<<<<<<< HEAD
+}
+=======
 } 
  
+>>>>>>> 5885cfdf (Appoinmnet added)
