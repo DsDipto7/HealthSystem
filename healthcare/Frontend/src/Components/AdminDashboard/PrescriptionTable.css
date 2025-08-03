@@ -1,0 +1,72 @@
+/* Scope all styles within prescription-table-container */
+.prescription-table-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ensure the table takes full screen width */
+.prescription-table {
+    width: 100% !important;  /* Ensures full width */
+    max-width: 100% !important;  /* Prevents shrinking */
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply styles only inside prescription-table-container to avoid conflicts */
+.prescription-table-container table {
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+.prescription-table-container th,
+.prescription-table-container td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Styling table headers */
+.prescription-table-container th {
+    background-color: #f4f4f4 !important;
+    font-weight: bold;
+}
+
+/* Ensure the table header is properly aligned */
+.prescription-table-container .prescription-table thead th {
+    text-align: center;
+    width: auto;
+    padding: 15px;
+    color: rgb(244, 246, 246);
+    background-color: rgb(57, 48, 48) !important;
+   
+}
+
+/* Ensure table responsiveness */
+.prescription-table-container .table-responsive {
+    width: 100% !important;
+    overflow-x: auto;  /* Enables horizontal scrolling if needed */
+}
+
+/* Button Styling */
+.prescription-table-container .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.prescription-table-container .delete-btn:hover {
+    background-color: darkred;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .prescription-table-container .prescription-table thead th {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

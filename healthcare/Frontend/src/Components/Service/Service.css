@@ -1,0 +1,102 @@
+/* Root Service Container */
+.service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Title */
+.service-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #3a6073;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Grid Layout */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Card */
+.service-card {
+  background: linear-gradient(135deg, #42a5f5, #66bb6a);
+  color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 25px 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Wrapper */
+.service-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Service Name */
+.service-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Service Description */
+.service-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Button */
+.service-button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #42a5f5;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: #ffffff;
+  color: #66bb6a;
+}
+
+/* Loading Text */
+.loading-text {
+  font-size: 1rem;
+  font-style: italic;
+  color: #888;
+}

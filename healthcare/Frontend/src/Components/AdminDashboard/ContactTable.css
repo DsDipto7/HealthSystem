@@ -1,0 +1,123 @@
+/* Scoped Contact Table Styles to Prevent Overwriting */
+.contact-table-container {
+    width: 100%;
+    padding: 20px;
+    overflow-x: auto;
+    border-radius: 12px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Ensure only ContactTable uses this title styling */
+.contact-table-container .contact-table-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Wrapper for responsive design */
+.contact-table-container .contact-table-wrapper {
+    overflow-x: auto;
+    border-radius: 12px;
+}
+
+/* Table Styling */
+.contact-table-container .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure thead is styled correctly with black background */
+.contact-table-container .contact-table thead {
+    background-color: rgb(5, 5, 5) !important; /* Forces black background */
+}
+
+.contact-table-container .contact-table thead th {
+    background-color: rgb(0, 0, 0) !important; /* Ensures all <th> elements are black */
+    color: white !important; /* White text for contrast */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 18px;
+}
+
+/* If there's any inherited table styling, reset it */
+.contact-table-container .contact-table thead tr {
+    background-color: rgb(7, 7, 7) !important;
+}
+
+.contact-table-container .contact-table thead th {
+    border: 1px solid #ffffff !important; /* Ensures visibility */
+}
+
+/* Table Rows */
+.contact-table-container .contact-table tbody tr {
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.contact-table-container .contact-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.contact-table-container .contact-table tbody tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+/* Table Cells */
+.contact-table-container .contact-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* No Data Row */
+.contact-table-container .contact-table-no-data {
+    text-align: center;
+    font-style: italic;
+    color: #d9534f;
+    padding: 15px 0;
+}
+
+/* Loading & Error Messages */
+.contact-table-container .contact-table-loading,
+.contact-table-container .contact-table-error {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-table-container .contact-table-error {
+    color: red;
+}
+
+/* Scrollbar Customization */
+.contact-table-container .contact-table-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.contact-table-container .contact-table-wrapper::-webkit-scrollbar-thumb {
+    background: #8e2de2;
+    border-radius: 8px;
+}
+
+.contact-table-container .contact-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #4a00e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-table-container .contact-table {
+        font-size: 14px;
+    }
+
+    .contact-table-container .contact-table th,
+    .contact-table-container .contact-table td {
+        padding: 8px;
+    }
+}

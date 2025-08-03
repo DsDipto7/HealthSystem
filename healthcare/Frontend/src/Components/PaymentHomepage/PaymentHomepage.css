@@ -1,0 +1,92 @@
+/* PaymentHomepage.css - Scoped Styles */
+
+.payment-homepage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .payment-homepage .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-homepage h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .payment-homepage h3 {
+    margin-top: 30px;
+    color: #2980b9;
+  }
+  
+  .payment-homepage p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  .payment-homepage ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .payment-homepage li {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .payment-homepage form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-homepage label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .payment-homepage input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .payment-homepage input[type="email"]:focus {
+    border-color: #3498db;
+  }
+  
+  .payment-homepage button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .payment-homepage button:hover {
+    background-color: #2980b9;
+  }
+  
+  .payment-homepage .back-btn {
+    background-color: #95a5a6;
+  }
+  
+  .payment-homepage .back-btn:hover {
+    background-color: #7f8c8d;
+  }
+  

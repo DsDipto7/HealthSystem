@@ -1,0 +1,242 @@
+<<<<<<< HEAD
+/* Container */
+.ambulance-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Title */
+.ambulance-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Loading & Error Text */
+.loading-text,
+.error-text,
+.no-data-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e74c3c;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Ambulance List */
+.ambulance-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+/* Ambulance Card */
+.ambulance-card {
+    width: 280px;
+    padding: 20px;
+    background: linear-gradient(135deg, #4a90e2, #b76dd7);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ambulance-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Ambulance Type */
+.ambulance-type {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+/* Contact Info */
+.ambulance-contact {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .ambulance-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ambulance-card {
+        width: 90%;
+    }
+
+    .ambulance-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ambulance-title {
+        font-size: 24px;
+    }
+
+    .ambulance-card {
+        width: 100%;
+        padding: 15px;
+    }
+}
+=======
+
+.ambulance-wrapper {
+    max-width: 1200px;
+    margin:  auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #2e7d32;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    z-index: 1000;
+    animation: fadein 0.3s ease;
+}
+
+.toast.success {
+    background-color: #38a169;
+    color: #fff;
+}
+
+.toast.error {
+    background-color: #e53e3e;
+    color: #fff;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+.ambulance-container {
+    display: flex;
+    background: #f7fafc;
+    border: 1px solid #cbd5e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    
+}
+
+.ambulance-left,
+.ambulance-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.ambulance-img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ambulance-info h2 {
+    color: #2e7d32;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ambulance-info p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.separator {
+    width: 1px;
+    background: #e2e8f0;
+}
+
+.ambulance-right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+.ambulance-form input,
+.ambulance-form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.ambulance-form input:focus,
+.ambulance-form select:focus {
+    border-color: #2e7d32;
+}
+
+.ambulance-form .error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.ambulance-form button {
+    width: 100%;
+    padding: 12px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.ambulance-form button:hover {
+    background: #2e7d32;
+}
+>>>>>>> 5885cfdf (Appoinmnet added)
